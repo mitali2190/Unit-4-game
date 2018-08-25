@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Luckiest+Guy" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="assets/javascript/game.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="page-header pg-title">
+            <h1>
+                <span class="glyphicon glyphicon-heart"></span>
+                CRYSTALS COLLECTOR GAME <span class="glyphicon glyphicon-heart">	</span>
+            </h1>
+        </div>
+
+        <div class="row">
+            <div class="col-md-3 col-md-offset-3 target-div">
+                <p class="target-p">TARGET:</p>
+                <label id="target_score" class="label-style"></label><br /><br /><br />
+            </div>
+            <div class="col-md-3 target-div">
+                <p class="target-p">SCORE:</p>
+                <label id="user_score" class="label-style"></label>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6 col-md-offset-3">
+                <div class="row">
+                    <div class="col-md-3">
+                        <input type="image" src="https://ia-crystal-collector.herokuapp.com/assets/images/blue_gem.jpg" class="crystal-img" id="img1" />
+                    </div>
+                    <div class="col-md-3">
+                        <input type="image" src="https://ia-crystal-collector.herokuapp.com/assets/images/pink_gem.jpg" class="crystal-img" id="img2" />
+                    </div>
+                    <div class="col-md-3">
+                        <input type="image" src="https://ia-crystal-collector.herokuapp.com/assets/images/yellow_gem.jpg" class="crystal-img" id="img3" />
+                    </div>
+                    <div class="col-md-3">
+                        <input type="image" src="http://www.spielen.de/blog/wp-content/uploads/2013/08/Candy-Crush-Saga-Tipps-Gestreifte-Bonbons.png" class="crystal-img" id="img4" />
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-offset-3"></div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-3 col-md-offset-3 target-div">
+                <p class="target-p">WIN: </p>
+                <label id="wins" class="label-style"></label>
+            </div>
+            <div class="col-md-3 target-div">
+                <p class="target-p">LOSS: </p>
+                <label id="loss" class="label-style text-right"></label>
+            </div>
+        </div>
+        <div class="row btn-div">
+            <input type="submit" value="START" class="btn start-btn" id="newGame" />
+        </div>
+    </div>
+</body>
+</html>

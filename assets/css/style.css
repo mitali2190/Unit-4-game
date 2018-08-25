@@ -1,0 +1,60 @@
+body{
+  background-image: url("http://gdj.graphicdesignjunction.com/wp-content/uploads/2011/03/background-pattern-design-86.jpg");
+}
+
+h1{
+  font-family: 'Luckiest Guy', cursive;
+    color: #00ff00;
+    text-align: center;
+}
+.pg-title{
+  border-bottom: 4px solid #00ff00;
+}
+.target-p{
+  font-weight: bold;
+    font-size: 20px;
+     background-color: #00ff00;
+    color: #660066;
+    display: inline-block;
+    padding: 7px 13px;
+    width: 49%;
+    text-align:center;
+}
+.target-div{
+  margin-top: 50px;
+}
+.label-style{
+  width: auto;
+    background-color: #00ff00;
+    color: #660066;
+    font-weight: bold;
+    font-size: 20px;
+    height: auto;
+    text-align: center;
+    padding: 7px 13px;
+    width: 49%;
+}
+.crystal-img{
+  height: 100px;
+    width: 100px;
+    margin-top: 15px;
+}
+.start-btn{
+  background-color: #00ff00;
+    color: #660066;
+    font-weight: bold;
+    font-size: 20px;
+    outline: none;
+}
+.btn-div{
+  text-align: center;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+input:focus{
+  outline: none;
+}
+
+.btn.active.focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn:active:focus, .btn:focus {
+outline:0px;
+}
